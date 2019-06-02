@@ -4,7 +4,9 @@
   "description": "research_report_automation_tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "coverage": "nyc npm test"
+
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,14 @@
   "homepage": "https://github.com/DaraHarris/test_research#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+
+  },
+  "nyc":{
+  "include":["src"],
+  "reporter":["lcov","text"],
+  "cache":true,
+  "all": true
   }
 }
