@@ -1,0 +1,23 @@
+{
+  "name": "test_research",
+  "version": "1.0.0",
+  "description": "research_report_automation_tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaraHarris/test_research.git"
+  },
+  "author": "Dara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaraHarris/test_research/issues"
+  },
+  "homepage": "https://github.com/DaraHarris/test_research#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
